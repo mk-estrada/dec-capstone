@@ -11,7 +11,7 @@ warehouse:
 
       role: accountadmin
       database: northwind
-      warehouse: xsmall_wh
+      warehouse: compute_wh
       schema: raw
       threads: 12
       client_session_keep_alive: False
