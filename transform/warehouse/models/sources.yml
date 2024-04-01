@@ -7,7 +7,7 @@ sources:
       - name: categories
       - name: customers
       - name: customer_customer_demo
-      - name: customer_demorgraphics
+      - name: customer_demographics
       - name: employees
       - name: employee_territories
       - name: orders

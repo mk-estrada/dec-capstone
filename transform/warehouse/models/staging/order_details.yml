@@ -1,0 +1,19 @@
+ models:
+  - name: order_details
+    description: Details for ordered products
+    columns:
+      - name: order_id
+        description: primary identifier for orders
+        tests:
+          - not_null
+
+      - name: unit_price
+        description: price per unit of product
+        tests:
+          - not_less_than_zero
+
+      - name: discount
+        description: price per unit of product
+        tests:
+          - not_less_than_zero    
+ 
