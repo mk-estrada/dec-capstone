@@ -1,0 +1,14 @@
+version: 2
+
+models:
+  - name: categories
+    description: Product Categories 
+    columns:
+      - name: category_id
+        description: primary identifier for categories
+        tests:
+          - not_null
+          - unique
+ 
+
+ 
