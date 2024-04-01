@@ -14,6 +14,7 @@ select
     employee_id,
     ship_region, 
     ship_address,
+    ship_city,
     ship_country, 
     shipped_date,
     required_date, 
