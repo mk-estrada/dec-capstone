@@ -15,5 +15,7 @@
       - name: discount
         description: price per unit of product
         tests:
-          - not_less_than_zero    
+          - not_less_than_zero
+          - not_greater_than:
+              value: 1   
  

@@ -6,7 +6,7 @@
 
 select 
     employee_id,
-    reports_to
+    reports_to,
     title_of_courtesy,
     first_name, 
     last_name,
