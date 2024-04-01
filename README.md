@@ -18,14 +18,15 @@ Unions
 1. Rename
 2. Calculations
 3. Sorting
-4. 
+4. Joins
 5. 
+6.
 7. 
 
 Data Quality tests:
-Built in:
+Built-in:
 - Not null
 - Unique
 Generic:
-- Discount Between
+- Not greater than value
 - Not Less Than Zero
