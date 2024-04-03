@@ -19,9 +19,9 @@ Unions
 2. Calculations
 3. Sorting
 4. Joins
-5. 
-6.
-7. 
+5. Data type casting
+6. Grouping
+7. Aggregation
 
 Data Quality tests:
 Built-in:
@@ -30,3 +30,13 @@ Built-in:
 Generic:
 - Not greater than value
 - Not Less Than Zero
+
+Tests for stage
+
+
+Test for marts
+Used not_null and unique tests to test that all surrogate keys in my marts models. 
+
+Reports
+One Big Table - Flat table
+Fact Order Monthly - Periodic snapshot
