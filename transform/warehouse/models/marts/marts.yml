@@ -1,0 +1,53 @@
+version: 2
+
+models:
+  - name: dim_customer
+    description: Dimensional table to join relevant customer tables 
+    columns:
+      - name: customer_key
+        description: surrogate key for dim_customer
+        tests:
+          - not_null
+          - unique
+
+  - name: dim_employees
+    description: Dimensional table to join relevant employee tables 
+    columns:
+      - name: employee_key
+        description: surrogate key for dim_employee
+        tests:
+          - not_null
+          - unique
+
+  - name: dim_products
+    description: Dimensional table to join relevant product tables 
+    columns:
+      - name: product_key
+        description: surrogate key for dim_products
+        tests:
+          - not_null
+          - unique
+
+  - name: fact_order
+    description: Fact order table to join relevant order events 
+    columns:
+      - name: order_key
+        description: surrogate key for fact_order of order_id
+        tests:
+          - not_null
+          - unique
+      - name: product_key
+        description: surrogate key for fact_order column of product_id
+        tests:
+          - not_null
+          - unique
+      - name: customer_key
+        description: surrogate key for fact_order column of customer_id
+        tests:
+          - not_null
+          - unique
+      - name: employee_key
+        description: surrogate key for fact_order of employee_id
+        tests:
+          - not_null
+          - unique

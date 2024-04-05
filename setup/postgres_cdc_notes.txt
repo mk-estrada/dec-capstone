@@ -1,0 +1,13 @@
+Helpful notes and resource for setting up CDC on Postgres RDS
+
+Video Tutorial for settings: https://www.youtube.com/watch?v=0NTsUMb_diQ
+
+Two key settings for created database:
+1. parameter group
+2. VPC security group
+
+If changing any VPC or parameter settings you may need to reboot your database or create a new one.
+
+Steps:
+1. Follow directions for setting up a Postgres database in RDS (see video link above)
+2. Run sql commands in cdc_setup.sql
