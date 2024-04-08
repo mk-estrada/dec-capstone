@@ -1,4 +1,4 @@
-# Northwind ETL Pipeline
+# Northwind ELT Pipeline
 Capstone Project for Data Engineering Camp
 
 # Overview
