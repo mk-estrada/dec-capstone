@@ -9,7 +9,7 @@ The Northwind GitHub provides SQL scripts and instructions for populating a Post
 Source of the data and usage instructions can be found here: https://github.com/pthom/northwind_psql
 
 # Project Components
-{Insert conpoenents graph }
+![Project Components](images/components-graph.JPG)
 
 ## 1. Destination Data Warehouse: Snowflake (OLAP)
 Snowflake is the destination data warehouse where the extracted data from the Northwind database will be loaded. Snowflake contains several schemas that support various parts of analysis process, and can be further customized and expanded to address many types of business questions. 
@@ -33,7 +33,7 @@ Tableau is the BI tool I used to create visualizations and analysis of our trans
 **1. Extraction (E):** Airbyte connects to the PostgreSQL database and leverages the enabled Change Data Capture (CDC) functionality to extract data efficiently. CDC ensures that only the changed or updated data since the last extraction is captured. CDC also allows for the capture of hard deletes from source data.
 
 **2. Loading (L):** Airbyte loads the extracted data into Snowflake using the appropriate Snowflake connector. The data is loaded into a raw schema.
->>>>>>> 66c29958813e3d58158b628e32d33625e52c3f25
+
 
 **3. Transformation (T):** Transformation tasks, if necessary, can be performed with downstream processes such as DBT running against Snowflake. These tasks are responsible for creating the staging, marts, and reports schemas.
 
