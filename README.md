@@ -10,7 +10,7 @@ Source of the data and usage instructions can be found here: https://github.com/
 
 # Project Components
 
-![Project Components](images/components-graph.JPG)
+![Project Components](images/components-graph.jpg)
 
 ## 1. Destination Data Warehouse: Snowflake (OLAP)
 Snowflake is the destination data warehouse where the extracted data from the Northwind database will be loaded. Snowflake contains several schemas that support various parts of analysis process, and can be further customized and expanded to address many types of business questions. 
