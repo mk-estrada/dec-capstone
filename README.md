@@ -128,4 +128,10 @@ Here are some screenshots that demonstrate the CDC functionality working inside 
 ![Tableau Viz 3](images/tableau-product-ship-region.JPG)
 ![Tableau Viz 4](images/tableau-discontinued-products.JPG)
 
-# Conclusion/Lessons Learned 
+# Outstanding Issues / Next Steps
+- AWS RDS out of storage error
+- Local dagster deployment 
+    - Setting up freshness policies, scheduling
+- Deploying dagster to dagster cloud
+    - Error with dbt Deps
+- Implement CI/CD
