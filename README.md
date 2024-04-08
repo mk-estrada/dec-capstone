@@ -9,7 +9,8 @@ The Northwind GitHub provides SQL scripts and instructions for populating a Post
 Source of the data and usage instructions can be found here: https://github.com/pthom/northwind_psql
 
 # Project Components
-{Insert compoenents graph }
+
+![Project Components](images/components-graph.JPG)
 
 ## 1. Destination Data Warehouse: Snowflake (OLAP)
 Snowflake is the destination data warehouse where the extracted data from the Northwind database will be loaded. Snowflake contains several schemas that support various parts of analysis process, and can be further customized and expanded to address many types of business questions. 
